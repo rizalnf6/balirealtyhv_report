@@ -1,0 +1,193 @@
+<style>
+
+/*Navbar*/
+.navbar-inverse .navbar-nav>li>a:hover {background-color: #a94442; color:#fff;}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {color: #fff; background-color: #21201e;}
+.navbar-inverse .navbar-brand {color: #ffffff;}
+.navbar-inverse {font-family: 'Lato', sans-serif; font-size: 14px; background-color: #2f3f56!important; border-color: #fff;}
+.navbar-inverse .navbar-nav>li>a {color:#ffffff!important;}
+
+/*Navbar Logo*/
+.navbar-brand>img {width: 70px; margin-top: -10px;}
+a.navbar-brand {font-family: 'Lato', sans-serif; font-size: 14px!important;}
+
+/*Nav Tab*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {color: #fff; background-color: #2f3f56;}
+.nav-tabs>li>a {background-color: #e1e0de; color: #000; font-family: 'Raleway', sans-serif; border-radius: 0px;}
+
+/*Panel Dashboard New Enquiry*/
+.panel.panel-new-enquiry-balirealty {color: #fff; background-color: none; text-align: center; font-family: 'Raleway', sans-serif; border-radius: 0px;}
+.panel.panel-new-enquiry-balirealty>.panel-heading {background-color: #2a7fc2; border-radius: 0px;}
+.panel.panel-new-enquiry-balirealty>.panel-body {background-color: #ebeae8; color: #000; border-radius: 0px;}
+
+.panel.panel-new-enquiry-balivillaescapes {color: #fff; background-color: none; text-align: center; font-family: 'Raleway', sans-serif; border-radius: 0px;}
+.panel.panel-new-enquiry-balivillaescapes>.panel-heading {background-color: #55c0ee; border-radius: 0px;}
+.panel.panel-new-enquiry-balivillaescapes>.panel-body {background-color: #ebeae8; color: #000; border-radius: 0px;}
+
+.panel.panel-new-enquiry-asiaholidayretreats {color: #fff; background-color: none; text-align: center; font-family: 'Raleway', sans-serif; border-radius: 0px;}
+.panel.panel-new-enquiry-asiaholidayretreats>.panel-heading {background-color: #fd8f2d; border-radius: 0px;}
+.panel.panel-new-enquiry-asiaholidayretreats>.panel-body {background-color: #ebeae8; color: #000; border-radius: 0px;}
+
+/*Panel Chart*/
+.panel.panel-chart-balirealty {background-color: none; border-radius: 0px!important; border-color: #2a7fc2!important;}
+.panel.panel-chart-balirealty>.panel-heading {background-color: #2a7fc2; color: #fff; text-align: left; border-radius: 0px;}
+
+.panel.panel-chart-balivillaescapes {background-color: none; border-radius: 0px!important; border-color: #55c0ee!important;}
+.panel.panel-chart-balivillaescapes>.panel-heading {background-color: #55c0ee; color: #fff; text-align: left; border-radius: 0px;}
+
+.panel.panel-chart-asiaholidayretreats {background-color: none; border-radius: 0px!important; border-color: #fd8f2d!important;}
+.panel.panel-chart-asiaholidayretreats>.panel-heading {background-color: #fd8f2d; color: #fff; text-align: left; border-radius: 0px;}
+
+/*Button Dashboard*/
+.btn.center-block a {color: #fff;}
+.btn.btn-brhv.center-block {background-color: #2a7fc2; border-radius: 0px; width: 40%;}
+.btn.btn-ahr.center-block {background-color: #fd8f2d; border-radius: 0px; width: 40%;}
+.btn.btn-bve.center-block {background-color: #55c0ee; border-radius: 0px; width: 40%;}
+
+/*Button Filter Donwload*/
+.button-filter-download {text-align: left!important; margin-bottom: 15px;}
+.btn-group>.btn-export {width: 80px!important; background-color: #35c276; color: #fff; border-radius: 0px;}
+.btn-filter {width: 80px!important; background-color: #e9c354; color: #fff; border-radius: 0px;}
+.btn-reset {width: 80px!important; background-color: #e95555; color: #fff; border-radius: 0px; margin-left: -2px;}
+.btn-add {width: 80px!important; background-color: #3c763d; color: #fff; border-radius: 0px; margin-left: -2px;}
+.btn-group>.btn-export:hover {width: 80px!important; background-color: #2da565; color: #fff; border-radius: 0px;}
+.btn-filter:hover {width: 80px!important; background-color: #e9c354; opacity: 0.8; color: #fff; border-radius: 0px;}
+.btn-reset:hover {width: 80px!important; background-color: #e95555; opacity: 0.8; color: #fff; border-radius: 0px;}
+.btn-add:hover {width: 80px!important; background-color: #3c763d; opacity: 0.8; color: #fff; border-radius: 0px;}
+
+.btn-group.open .btn-export.dropdown-toggle {background-color: #2da565; color: #fff;}
+.open>.dropdown-menu.dropdown-export {background-color: #35c276; color: #fff; border-radius: 0px;}
+.dropdown-menu.dropdown-export>li>a {color: #fff;}
+.dropdown-menu.dropdown-export>li>a:hover {color: #fff; background-color: #2da565;}
+
+/*Logo Dashboard*/
+.top-logo-dashboard {text-align: center; margin-bottom: 10px;}
+.top-logo-dashboard img {width: 70%;}
+.logo-chart-dashboard img {width: 100%; margin-top: 100%;}
+.logo {width: 200px;}
+
+/*Input Form*/
+.control-label {font-family: 'Raleway', sans-serif;}
+.form-control {font-family: 'Lato', sans-serif; border-radius: 0px!important;}
+
+.container {padding: 50px}
+
+/*Page Caption or Header*/
+.page-header {font-size: 24px; font-family: 'calibri'; text-align: center; color: #292929; border-bottom: none; margin-top: 0px; margin-bottom: 0px;}
+.page-header-table {font-size: 24px; font-family: 'Raleway', sans-serif; text-align: right; color: #292929; border-bottom: none; margin-top: 0px; margin-bottom: 10px;}
+.page-header-with-margin {font-size: 24px; font-family: 'Raleway', sans-serif; text-align: right; color: #292929; border-bottom: none; margin-top: 35px; margin-bottom: 0px;}
+
+/*Logo Each Pages*/
+.logo img {width: 100%!important; display: block; margin-left: auto; margin-right: auto;}
+.logo-table {width: 200px!important;}
+.logo-table-with-margin {width: 200px!important; margin-left: -14px;}
+.logo-chart img {width: 75%!important; margin-left: auto;}
+.logo-chart-page {width: 100%!important;}
+
+/*Button*/
+.btn {border-radius: 0px;}
+
+/*Detail Page*/
+.form-heading-details-brhv {font-family: 'Raleway', sans-serif; color: #2a7fc2;}
+.form-heading-details-bve {font-family: 'Raleway', sans-serif; color: #55c0ee;}
+.form-heading-details-ahr {font-family: 'Raleway', sans-serif; color: #fd8f2d;}
+.guest_detail {font-family: 'Open Sans', sans-serif; font-size: 16px;}
+.label-detail {font-family: 'Bitter', serif; color: #000; padding-right: 10px; line-height: 35px;}
+
+/*Action Button*/
+.action-button {text-align: left;}
+.action-button a {margin-left: 2px; margin-right: 2px;}
+
+label {float: left; margin-left: 20px!important;}
+
+/*Table*/
+.table-caption {font-family: 'Raleway', sans-serif!important;}
+.table-scroll {max-height: 600px; overflow: auto;}
+.table td {font-size: 13px; font-family: 'Lato', sans-serif;}
+.table.table-bordered.table-brhv>thead>tr>th {font-family: 'Raleway', sans-serif; font-size: 12px; color: #fff; background-color: #2a7fc2; text-align: left;}
+.table.table-striped.table-brhv>thead>tr>th {font-family: 'Raleway', sans-serif; font-size: 12px; color: #fff; background-color: #2a7fc2; text-align: left;}
+.table.table-bordered.table-bve>thead>tr>th {font-family: 'Raleway', sans-serif; font-size: 12px; color: #fff; background-color: #55c0ee; text-align: left;}
+.table.table-striped.table-bve>thead>tr>th {font-family: 'Raleway', sans-serif; font-size: 12px; color: #fff; background-color: #55c0ee; text-align: left;}
+.table.table-bordered.table-ahr>thead>tr>th {font-family: 'Raleway', sans-serif; font-size: 12px; color: #fff; background-color: #fd8f2d; text-align: left;}
+.table.table-striped.table-ahr>thead>tr>th {font-family: 'Raleway', sans-serif; font-size: 12px; color: #fff; background-color: #fd8f2d; text-align: left;}
+
+/*dataTables*/
+table.dataTable thead th {border-bottom: 0px solid transparent;}
+table.dataTable tfoot th {border-top: 0px solid transparent; padding-left: 10px;}
+.dataTables_length {font-family: 'Raleway', sans-serif; margin-left: -18px!important;}
+.dataTables_filter {font-family: 'Raleway', sans-serif; float: left!important; margin-left: -18px!important;}
+.dataTables_info {font-family: 'Raleway', sans-serif; font-weight: bold;}
+.dataTables_paginate {font-family: 'Raleway', sans-serif; font-weight: bold;}
+
+td.uppercase-name {text-transform: capitalize;}
+td.no-border-left {border-left: solid 1px #FFF!important;} 
+td.no-border-right {border-right: solid 1px #FFF!important;}  
+td.title-bold {font-weight: bold;}
+
+/*Emquiry Detail Page*/
+.enquiry-detail-heading p {font-family: 'Lato', sans-serif; font-size: 22px; color: #d43f3a; text-align: center;}
+.enquiry-detail-data td {font-family: 'Lato', sans-serif; font-size: 16px;}
+
+/*Halaman*/
+.halaman strong {font-size:14px; color:#fff; background-color: #372f2c; border:10px solid #372f2c; font-weight:bold; font-family: 'Lato', sans-serif;}
+.halaman a {padding:8px; border:0px solid #fff; font-size:14px; font-weight:bold; color: #372f2c; font-family: 'Lato', sans-serif;}
+ a.tabletooltip { color: #333; text-decoration: none;}
+
+.well {padding: 5px; font-family: 'Lato', sans-serif; text-align: left; border-radius: 0px;}
+a.villa-link {color: #333; text-decoration: none;}
+a.villa-link:hover {font-weight: bold;}
+a.dropbox-link {color: #fd8f2d; text-decoration: none;}
+a.dropbox-link:hover {font-weight: bold;}
+
+/*Chart Background*/
+.logo-chart {background-color: #37302a; text-align: center;  width: 100%; margin-bottom: 30px!important;}
+.logo-chart:hover {background-color: #463d36;}
+.chart-text {color: #fff; font-family: 'Lato', sans-serif; font-size: 16px; margin-top: -50px; padding-bottom: 25px;}
+
+img.img-responsive {margin: auto; width: 70%;}
+
+/*Footer*/
+.footer {background-color: #2f3f56; color: #fff; font-family: 'Raleway', sans-serif; height: 40px; font-size: 12px;}
+.footer p {margin-top: 10px;}
+.footer hr {border-top: 1px solid #1066a2;}
+
+/*Form*/
+h4.form-heading-brhv {font-family: 'Raleway', sans-serif; color: #fff!important; background-color: #2a7fc2; padding-top: 3px; padding-bottom: 3px; border-radius: 0px; text-align: center; opacity: 0.8}
+h4.form-heading-bve {font-family: 'Raleway', sans-serif; color: #fff!important; background-color: #55c0ee; padding-top: 3px; padding-bottom: 3px; border-radius: 0px; text-align: center; opacity: 0.8}
+h4.form-heading-ahr {font-family: 'Raleway', sans-serif; color: #fff!important; background-color: #fd8f2d; padding-top: 3px; padding-bottom: 3px; border-radius: 0px; text-align: center; opacity: 0.8}
+
+@media (max-width: 1366px) {
+.table-scroll {max-height: 290px!important; overflow: auto;}
+}
+
+@media (max-width: 768px) {
+/*Logo Each Pages*/
+.logo-table {display: block!important; margin-left: auto!important; margin-right: auto!important;}
+.logo-table-with-margin {display: block!important; margin-left: auto!important; margin-right: auto!important;}
+.logo-table-new-enquiry img {width: 40%!important; display: block!important; margin-left: auto!important; margin-right: auto!important;}
+.logo-comparison img {width: 40%!important; display: block!important; margin-left: auto!important; margin-right: auto!important;}
+.logo-chart-page {width: 50%!important; display: block!important; margin-left: auto!important; margin-right: auto!important;}
+
+/*Button Filter Donwload*/
+.button-filter-download {text-align: center!important;}
+
+/*Page Caption or Header*/
+.page-header-table {font-size: 22px; text-align: center;}
+.page-header-with-margin {text-align: center; margin-top: 0px; margin-bottom: 15px; }
+
+/*Logo Dashboard*/
+.logo-chart-dashboard img {margin-top: 0%; margin-bottom: -10%;}
+
+/*Chart Background*/
+.chart-text {font-size: 24px; margin-top: -60px; padding-bottom: 30px;}
+
+.logo img {width: 50%!important; margin-left: auto;}
+}
+
+
+
+@media (max-width: 600px) {
+label {float: left; margin-left: 0px!important;}
+.dataTables_filter {margin-left: -0px!important;}
+}
+</style>
